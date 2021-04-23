@@ -4,7 +4,7 @@
 
 const exponent = (num, exp) => {
   let result = 1;
-
+if (!exp){exp=2}
   for (let i = 0; i < exp; i++) {
     result *= num;
   }
